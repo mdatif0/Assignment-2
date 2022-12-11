@@ -75,3 +75,19 @@ function underlineText(){
         target.style.textDecoration = "underline";
     }
 }
+
+function validateForm() {
+    let x = document.forms["myForm"]["First_Name"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+    else{
+        alert("Form Submitted");
+        window.location.href = "http://mdatif.me/iul/";
+        return true;
+    }
+  }
+function reset() {
+    window.location.href = "form.html";
+}
