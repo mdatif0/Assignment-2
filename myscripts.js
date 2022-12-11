@@ -89,5 +89,5 @@ function validateForm() {
     }
   }
 function reset() {
-    window.location.href = "form.html";
+    window.location.href = "index.html";
 }
